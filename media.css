@@ -1,0 +1,26 @@
+@media print {
+    .names{
+      font-size: small;
+    text-align: left;
+    color: rgb(243, 215, 60);
+  }
+    
+  }
+
+@media (max-width:676px) {
+    footer {
+      width: 50%;
+      }
+    
+  }
+  @media screen and (max-width:900px){
+    div.shop{
+        width: 1200px;
+        height: 600px;
+        display: grid;
+      gap: 10px;
+        margin-bottom: 100px;
+    }
+    img{
+        width: 20px;
+    }
